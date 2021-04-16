@@ -1,0 +1,15 @@
+## pathes
+fast_tsne: '/path/to/fast_tsne'
+init_path: '/path/to/folder/with/cell_ranger/results'
+r_script: '/path/to/Rscript'
+sng_cache: '/path/to/singularity/cache/dir'
+pw_json: 'in_data/pathways.json'
+markers_to_draw: 'in_data/target_markers.txt'
+
+## trajectory analysis
+ti_tool: 'slingshot'
+assay_counts: 'SCT'
+assay_data: 'integrated'
+clusters_macs: 1, 2, 7, 8, 9, 12, 13 # set clusters correspond to macrophages
+
+
